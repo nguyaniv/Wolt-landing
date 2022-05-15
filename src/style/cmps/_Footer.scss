@@ -1,0 +1,31 @@
+.footer {
+  height: 15rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  &__logo {
+    font-size: 1.8rem;
+    h4 {
+      font-weight: 400;
+      font-family: Montserrat;
+      color: #fff;
+    }
+    span {
+      padding: 1.5rem 0.5rem;
+      border: 1px solid #fff;
+      border-radius: 0.5rem;
+      font-weight: 700;
+    }
+  }
+
+  li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
