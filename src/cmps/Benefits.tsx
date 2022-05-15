@@ -10,7 +10,7 @@ export default function Benefits({}: Props) {
         <div className="benefits--items">
           <div className="benefits--item">
             <img
-              src="/images/icons8-car-64.png"
+              src={process.env.PUBLIC_URL + '/images/icons8-car-64.png'}
               width={60}
               height={50}
               alt="car"
@@ -23,7 +23,7 @@ export default function Benefits({}: Props) {
           </div>
           <div className="benefits--item">
             <img
-              src="/images/icons8-скидка-64.png"
+              src={process.env.PUBLIC_URL + '/images/icons8-скидка-64.png'}
               width={52}
               height={50}
               alt="weel"
@@ -36,7 +36,7 @@ export default function Benefits({}: Props) {
           </div>
           <div className="benefits--item">
             <img
-              src="/images/icons8-сердце-64.png"
+              src={process.env.PUBLIC_URL + '/images/icons8-сердце-64.png'}
               width={52}
               height={50}
               alt="weel"

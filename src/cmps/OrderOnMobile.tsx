@@ -11,22 +11,39 @@ export default function OrderOnMobile({}: Props) {
 
           <ul className="order-on-mobile--list">
             <li>
-              <img src="/images/icons8-иллюстратор-32.png" alt="paint" />{' '}
+              <img
+                src={
+                  process.env.PUBLIC_URL + '/images/icons8-иллюстратор-32.png'
+                }
+                alt="paint"
+              />{' '}
               Intuitive app with beautiful design
             </li>
             <li>
               {' '}
-              <img src="/images/icons8-маркер-32.png" alt="paint" /> Track
-              courier movement
+              <img
+                src={process.env.PUBLIC_URL + '/images/icons8-маркер-32.png'}
+                alt="paint"
+              />{' '}
+              Track courier movement
             </li>
             <li>
               {' '}
-              <img src="/images/icons8-подарок-32.png" alt="paint" />
+              <img
+                src={process.env.PUBLIC_URL + '/images/icons8-подарок-32.png'}
+                alt="paint"
+              />
               Accumulate bonus from each order
             </li>
             <li>
               {' '}
-              <img src="/images/icons8-популярная-тема-32.png" alt="paint" />
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  '/images/icons8-популярная-тема-32.png'
+                }
+                alt="paint"
+              />
               Leave reviews
             </li>
           </ul>
@@ -34,7 +51,10 @@ export default function OrderOnMobile({}: Props) {
           <button>Read more</button>
         </div>
         <div className="order-on-mobile--right">
-          <img src="/images/20-layers.png" alt="variants" />
+          <img
+            src={process.env.PUBLIC_URL + '/images/20-layers.png'}
+            alt="variants"
+          />
         </div>
       </div>
     </div>

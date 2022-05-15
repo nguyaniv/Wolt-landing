@@ -28,7 +28,7 @@ export default function Contacts({}: Props) {
 
           <div className="contacts__location">
             <h2>Our office location</h2>
-            <img src="/images/Map.png" alt="map" />
+            <img src={process.env.PUBLIC_URL + '/images/Map.png'} alt="map" />
           </div>
         </div>
       </div>
