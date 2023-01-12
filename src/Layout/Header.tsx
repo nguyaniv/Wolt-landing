@@ -17,7 +17,7 @@ export default function Header({}: Props) {
                 Fast delivery from your favorite restaurants. Order food through
                 the Wolt and enjoy the best deals of the month haha121!
               </p>
-
+              {/* Test */}
               <button>Get started</button>
             </div>
           </div>
