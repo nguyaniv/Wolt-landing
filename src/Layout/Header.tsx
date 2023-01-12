@@ -1,6 +1,6 @@
-import { relative } from 'path';
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import { relative } from "path";
+import React from "react";
+import Navbar from "../Navbar/Navbar";
 type Props = {};
 
 export default function Header({}: Props) {
@@ -15,7 +15,7 @@ export default function Header({}: Props) {
 
               <p>
                 Fast delivery from your favorite restaurants. Order food through
-                the Wolt and enjoy the best deals of the month!
+                the Wolt and enjoy the best deals of the month haha!
               </p>
 
               <button>Get started</button>
@@ -28,14 +28,14 @@ export default function Header({}: Props) {
             <div className="empty-circle">
               <img
                 className="burger"
-                src={process.env.PUBLIC_URL + '/images/Burger1.png'}
+                src={process.env.PUBLIC_URL + "/images/Burger1.png"}
                 width="580"
-                height={'480'}
+                height={"480"}
                 alt="burger"
               />
               <img
                 className="cola"
-                src={process.env.PUBLIC_URL + '/images/Cola.png'}
+                src={process.env.PUBLIC_URL + "/images/Cola.png"}
                 width={93}
                 height={93}
                 alt="cola"
