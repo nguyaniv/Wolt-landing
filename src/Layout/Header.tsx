@@ -18,7 +18,7 @@ export default function Header({}: Props) {
                 the Wolt and enjoy the best deals of the month haha121!
               </p>
 
-              <button>Get started</button>
+              <button>Get startedd</button>
             </div>
           </div>
           <div className="header__right">
